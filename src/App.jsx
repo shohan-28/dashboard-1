@@ -1,3 +1,8 @@
+import { NavLink, Outlet } from "react-router"
+import Home from './components/Home';
+import Member from './components/Member';
+import Edit from './components/Edit';
+import Search from './components/Search';
 
 
 function App() {
@@ -6,6 +11,7 @@ function App() {
       <section>
         <div>
           <div>
+
             <div className="drawer lg:drawer-open">
               <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
               <div className="drawer-content">
@@ -20,7 +26,7 @@ function App() {
                 {/* Page content here */}
                 <div className="min-h-screen bg-slate-100 ">
                   <div className="flex justify-start py-2">
-                    <p className="text-3xl font-semibold text-indigo-600">Hello guys</p>
+                    <Outlet></Outlet>
                   </div>
                 </div>
               </div>
@@ -32,16 +38,30 @@ function App() {
                   <ul className="menu w-full grow">
                     {/* List item */}
                     <li>
-                      <button className="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Dashboard">
+                      <NavLink
+                        to="/Home"
+                        className={({ isActive }) =>
+                          `is-drawer-close:tooltip is-drawer-close:tooltip-right flex items-center gap-2 px-2 py-1 rounded ${isActive ? "bg-white text-black font-semibold" : "text-white"
+                          }`
+                        }
+                        data-tip="Dashboard"
+                      >
                         {/* Home icon */}
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="currentColor" className="my-1.5 inline-block size-4"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
                         <span className="is-drawer-close:hidden">Dashboard</span>
-                      </button>
+                      </NavLink>
                     </li>
 
                     {/* List item */}
                     <li>
-                      <button className="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Members">
+                      <NavLink
+                        to="/Member"
+                        className={({ isActive }) =>
+                          `is-drawer-close:tooltip is-drawer-close:tooltip-right flex items-center gap-2 px-2 py-1 rounded ${isActive ? "bg-white text-black font-semibold" : "text-white"
+                          }`
+                        }
+                        data-tip="Member"
+                      >
                         {/* Settings icon */}
                         <img
                           src="https://www.svgrepo.com/show/374474/team-member.svg"
@@ -49,11 +69,18 @@ function App() {
                           className="size-4 inline-block"
                         />
                         <span className="is-drawer-close:hidden">Members</span>
-                      </button>
+                      </NavLink>
                     </li>
 
                     <li>
-                      <button className="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Edit">
+                      <NavLink
+                        to="/Edit"
+                        className={({ isActive }) =>
+                          `is-drawer-close:tooltip is-drawer-close:tooltip-right flex items-center gap-2 px-2 py-1 rounded ${isActive ? "bg-white text-black font-semibold" : "text-white"
+                          }`
+                        }
+                        data-tip="Edit"
+                      >
                         {/* Settings icon */}
                         <img
                           src="https://www.svgrepo.com/show/505641/edit-3.svg"
@@ -61,20 +88,28 @@ function App() {
                           className="size-4 inline-block"
                         />
                         <span className="is-drawer-close:hidden">Edit</span>
-                      </button>
+                      </NavLink>
                     </li>
 
+
                     <li>
-                      <button className="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Search">
-                        {/* Settings icon */}
+                      <NavLink
+                        to="/Search"
+                        className={({ isActive }) =>
+                          `is-drawer-close:tooltip is-drawer-close:tooltip-right flex items-center gap-2 px-2 py-1 rounded ${isActive ? "bg-white text-black font-semibold" : "text-white"
+                          }`
+                        }
+                        data-tip="Search"
+                      >
                         <img
                           src="https://www.svgrepo.com/show/510179/search-file.svg"
-                          alt="members icon"
-                          className="size-4 inline-block"
+                          alt="search icon"
+                          className="size-4"
                         />
                         <span className="is-drawer-close:hidden">Search</span>
-                      </button>
+                      </NavLink>
                     </li>
+
 
 
                   </ul>

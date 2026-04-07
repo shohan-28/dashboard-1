@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Pele",
+    "picture": "https://via.placeholder.com/300x300?text=Pele",
+    "position": "Forward",
+    "total_goals": 767,
+    "history": "Brazil legend, 3× FIFA World Cup winner (1958, 1962, 1970), played for Santos and New York Cosmos."
+  },
+  {
+    "id": 2,
+    "name": "Neymar Jr",
+    "picture": "https://via.placeholder.com/300x300?text=Neymar",
+    "position": "Forward",
+    "total_goals": 450,
+    "history": "Played for Santos, Barcelona, PSG, and Al Hilal. Key player for Brazil national team."
+  },
+  {
+    "id": 3,
+    "name": "Ronaldo Nazario",
+    "picture": "https://via.placeholder.com/300x300?text=Ronaldo",
+    "position": "Forward",
+    "total_goals": 414,
+    "history": "2× World Cup winner (1994, 2002 squad), played for Barcelona, Inter Milan, Real Madrid."
+  },
+  {
+    "id": 4,
+    "name": "Ronaldinho",
+    "picture": "https://via.placeholder.com/300x300?text=Ronaldinho",
+    "position": "Attacking Midfielder",
+    "total_goals": 280,
+    "history": "Ballon d'Or winner (2005), played for Barcelona, AC Milan, and Brazil national team."
+  },
+  {
+    "id": 5,
+    "name": "Rivaldo",
+    "picture": "https://via.placeholder.com/300x300?text=Rivaldo",
+    "position": "Attacking Midfielder",
+    "total_goals": 350,
+    "history": "1999 Ballon d'Or winner, played for Barcelona and AC Milan, World Cup winner 2002."
+  },
+  {
+    "id": 6,
+    "name": "Kaka",
+    "picture": "https://via.placeholder.com/300x300?text=Kaka",
+    "position": "Attacking Midfielder",
+    "total_goals": 170,
+    "history": "2007 Ballon d'Or winner, played for AC Milan and Real Madrid."
+  },
+  {
+    "id": 7,
+    "name": "Romario",
+    "picture": "https://via.placeholder.com/300x300?text=Romario",
+    "position": "Forward",
+    "total_goals": 750,
+    "history": "FIFA World Cup winner 1994, prolific striker for PSV Eindhoven and Barcelona."
+  },
+  {
+    "id": 8,
+    "name": "Zico",
+    "picture": "https://via.placeholder.com/300x300?text=Zico",
+    "position": "Attacking Midfielder",
+    "total_goals": 480,
+    "history": "Flamengo legend, known as the 'White Pele', iconic Brazilian playmaker."
+  },
+  {
+    "id": 9,
+    "name": "Cafu",
+    "picture": "https://via.placeholder.com/300x300?text=Cafu",
+    "position": "Right Back",
+    "total_goals": 40,
+    "history": "Captain of Brazil in 2002 World Cup win, played for Roma and AC Milan."
+  },
+  {
+    "id": 10,
+    "name": "Roberto Carlos",
+    "picture": "https://via.placeholder.com/300x300?text=Roberto+Carlos",
+    "position": "Left Back",
+    "total_goals": 113,
+    "history": "Famous for powerful free kicks, played for Real Madrid and Brazil national team."
+  },
+  {
+    "id": 11,
+    "name": "Bebeto",
+    "picture": "https://via.placeholder.com/300x300?text=Bebeto",
+    "position": "Forward",
+    "total_goals": 350,
+    "history": "World Cup winner 1994, known for partnership with Romario."
+  },
+  {
+    "id": 12,
+    "name": "Dani Alves",
+    "picture": "https://via.placeholder.com/300x300?text=Dani+Alves",
+    "position": "Right Back",
+    "total_goals": 60,
+    "history": "One of the most decorated footballers, played for Barcelona, Juventus, PSG."
+  },
+  {
+    "id": 13,
+    "name": "Thiago Silva",
+    "picture": "https://via.placeholder.com/300x300?text=Thiago+Silva",
+    "position": "Centre Back",
+    "total_goals": 40,
+    "history": "Brazil captain for many years, played for PSG, AC Milan, Chelsea."
+  },
+  {
+    "id": 14,
+    "name": "Marcelo",
+    "picture": "https://via.placeholder.com/300x300?text=Marcelo",
+    "position": "Left Back",
+    "total_goals": 30,
+    "history": "Real Madrid legend, multiple Champions League winner."
+  },
+  {
+    "id": 15,
+    "name": "Vinicius Jr",
+    "picture": "https://via.placeholder.com/300x300?text=Vinicius+Jr",
+    "position": "Forward",
+    "total_goals": 120,
+    "history": "Real Madrid winger, rising star of Brazil national team, known for speed and dribbling."
+  }
+]
