@@ -1,0 +1,148 @@
+{
+  "schedule": [
+    {
+      "id": "DSLGO-06",
+      "name": "Din Islam",
+      "department": "Moderator",
+      "off_day": "Sunday",
+      "picture_link": "https://example.com/din_islam.jpg",
+      "shifts": {
+        "Saturday": "NIGHT",
+        "Sunday": "OFF",
+        "Monday": "DAY",
+        "Tuesday": "DAY",
+        "Wednesday": "DAY",
+        "Thursday": "DAY",
+        "Friday": "NIGHT"
+      }
+    },
+    {
+      "id": "DSM-08",
+      "name": "Shohan",
+      "department": "Moderator",
+      "off_day": "Saturday",
+      "picture_link": "https://example.com/shohan.jpg",
+      "shifts": {
+        "Saturday": "OFF",
+        "Sunday": "DAY",
+        "Monday": "DAY",
+        "Tuesday": "DAY",
+        "Wednesday": "NIGHT",
+        "Thursday": "NIGHT",
+        "Friday": "NIGHT"
+      }
+    },
+    {
+      "id": "DSM-02",
+      "name": "Mahbur Hason Redoy",
+      "department": "Moderator",
+      "off_day": "Monday",
+      "picture_link": "https://example.com/redoy.jpg",
+      "shifts": {
+        "Saturday": "DAY",
+        "Sunday": "NIGHT",
+        "Monday": "OFF",
+        "Tuesday": "DAY",
+        "Wednesday": "DAY",
+        "Thursday": "DAY",
+        "Friday": "DAY"
+      }
+    },
+    {
+      "id": "DSM-06",
+      "name": "Monirul Islam",
+      "department": "Moderator",
+      "off_day": "Tuesday",
+      "picture_link": "https://example.com/monirul.jpg",
+      "shifts": {
+        "Saturday": "DAY",
+        "Sunday": "NIGHT",
+        "Monday": "NIGHT",
+        "Tuesday": "OFF",
+        "Wednesday": "DAY",
+        "Thursday": "DAY",
+        "Friday": "DAY"
+      }
+    },
+    {
+      "id": "DSLC-04",
+      "name": "Sami",
+      "department": "Moderator",
+      "off_day": "Wednesday",
+      "picture_link": "https://example.com/sami.jpg",
+      "shifts": {
+        "Saturday": "DAY",
+        "Sunday": "DAY",
+        "Monday": "NIGHT",
+        "Tuesday": "NIGHT",
+        "Wednesday": "OFF",
+        "Thursday": "DAY",
+        "Friday": "DAY"
+      }
+    },
+    {
+      "id": "DSM-07",
+      "name": "Amir",
+      "department": "Moderator",
+      "off_day": "Friday",
+      "picture_link": "https://example.com/amir.jpg",
+      "shifts": {
+        "Saturday": "DAY",
+        "Sunday": "DAY",
+        "Monday": "DAY",
+        "Tuesday": "NIGHT",
+        "Wednesday": "NIGHT",
+        "Thursday": "NIGHT",
+        "Friday": "OFF"
+      }
+    },
+    {
+      "id": "DSM-03",
+      "name": "Md. Himel Mia",
+      "department": "Moderator",
+      "off_day": "Sunday",
+      "picture_link": "https://example.com/himel.jpg",
+      "shifts": {
+        "Saturday": "NIGHT",
+        "Sunday": "OFF",
+        "Monday": "DAY",
+        "Tuesday": "DAY",
+        "Wednesday": "DAY",
+        "Thursday": "DAY",
+        "Friday": "DAY"
+      }
+    },
+    {
+      "id": "DSM-01",
+      "name": "Md. Samiul Islam",
+      "department": "Moderator",
+      "off_day": "Thursday",
+      "picture_link": "https://example.com/samiul.jpg",
+      "shifts": {
+        "Saturday": "DAY",
+        "Sunday": "DAY",
+        "Monday": "DAY",
+        "Tuesday": "DAY",
+        "Wednesday": "DAY",
+        "Thursday": "OFF",
+        "Friday": "DAY"
+      }
+    },
+    {
+      "id": "DSSD-03",
+      "name": "ISRAFIL SIRAJ",
+      "department": "Moderator",
+      "off_day": "Friday",
+      "picture_link": "https://example.com/israfil.jpg",
+      "shifts": {
+        "Saturday": "DAY",
+        "Sunday": "DAY",
+        "Monday": "DAY",
+        "Tuesday": "DAY",
+        "Wednesday": "DAY",
+        "Thursday": "DAY",
+        "Friday": "OFF"
+      }
+    }
+  ]
+}

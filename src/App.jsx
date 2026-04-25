@@ -1,8 +1,9 @@
 import { NavLink, Outlet } from "react-router"
 import Home from './components/Home';
 import Member from './components/Member';
-import Edit from './components/Edit';
+
 import Search from './components/Search';
+import Routine from './components/Routine';
 
 
 function App() {
@@ -21,11 +22,11 @@ function App() {
                     {/* Sidebar toggle icon */}
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="currentColor" className="my-1.5 inline-block size-4"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M9 4v16"></path><path d="M14 10l2 2l-2 2"></path></svg>
                   </label>
-                  <div className="px-4">Navbar Title</div>
+                  <div className="px-4">Hey Moderator</div>
                 </nav>
                 {/* Page content here */}
                 <div className="min-h-screen bg-slate-100 ">
-                  <div className="flex justify-start py-2">
+                  <div className="flex py-2">
                     <Outlet></Outlet>
                   </div>
                 </div>
@@ -74,12 +75,12 @@ function App() {
 
                     <li>
                       <NavLink
-                        to="/Edit"
+                        to="/Routine"
                         className={({ isActive }) =>
                           `is-drawer-close:tooltip is-drawer-close:tooltip-right flex items-center gap-2 px-2 py-1 rounded ${isActive ? "bg-white text-black font-semibold" : "text-white"
                           }`
                         }
-                        data-tip="Edit"
+                        data-tip="Routine"
                       >
                         {/* Settings icon */}
                         <img
@@ -87,7 +88,7 @@ function App() {
                           alt="members icon"
                           className="size-4 inline-block"
                         />
-                        <span className="is-drawer-close:hidden">Edit</span>
+                        <span className="is-drawer-close:hidden">Routine</span>
                       </NavLink>
                     </li>
 

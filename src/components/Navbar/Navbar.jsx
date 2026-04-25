@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div>
             <div>
-                <h1 className='text-2xl text-black py-2 px-2 bg-amber-200 aldrich-regular'>Dashboard</h1>
+                <h1 className='text-2xl text-black py-2 px-2 bg-blue-300 aldrich-regular'>Digital Seba</h1>
             </div>
         </div>
     );

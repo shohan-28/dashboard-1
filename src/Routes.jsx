@@ -1,11 +1,12 @@
 import { createBrowserRouter } from "react-router";
 import App from "./App";
 
-import Edit from "./components/Edit";
+
 import Member from "./components/Member";
 import Home from "./components/Home";
 import Search from './components/Search';
 import Root from './Root';
+import Routine from './components/Routine';
 
 
 const router = createBrowserRouter([
@@ -22,8 +23,8 @@ const router = createBrowserRouter([
                 element: <Search></Search>
             },
             {
-                path:"/Edit",
-                element: <Edit></Edit>
+                path:"/Routine",
+                element: <Routine></Routine>
             },
             {
                 path:"/Member",
