@@ -1,0 +1,39 @@
+.shohanPic {
+  width: 100%;
+  max-width: 550px;
+  
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1024px) {
+  .shohanPic {
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 768px) {
+  .shohanPic {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .shohanPic {
+    max-width: 260px;
+  }
+}

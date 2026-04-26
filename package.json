@@ -13,6 +13,7 @@
     "@fontsource/aldrich": "^5.2.7",
     "@reduxjs/toolkit": "^2.11.2",
     "@tailwindcss/vite": "^4.2.2",
+    "animate.css": "^4.1.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-redux": "^9.2.0",
