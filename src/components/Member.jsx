@@ -84,7 +84,7 @@ const Member = () => {
           className="w-36 h-36 md:w-52 md:h-52 lg:w-84 lg:h-64 object-cover rounded-2xl border-4 border-blue-200 shohanPic"
         />
 
-        <h1 className="mt-4 text-2xl uppercase font-bold text-gray-800 text-center">
+        <h1 className="mt-4 text-2xl uppercase font-bold text-gray-800 text-center  ">
           {selectedMember?.name}
         </h1>
 
